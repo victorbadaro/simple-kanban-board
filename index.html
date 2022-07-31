@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <title>Simple Kanban Board</title>
+</head>
+
+<body>
+  <div class="boards">
+    <div class="board">
+      <h3>Todo</h3>
+      <div class="dropzone">
+        <div class="card" draggable="true">
+          <div class="status green"></div>
+          <div class="content">Render videos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="board">
+      <h3>In Progress</h3>
+      <div class="dropzone">
+        <div class="card" draggable="true">
+          <div class="status blue"></div>
+          <div class="content">Watch a movie</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="board">
+      <h3>Done</h3>
+      <div class="dropzone">
+        <div class="card" draggable="true">
+          <div class="status red"></div>
+          <div class="content">Study drag and drop API</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+<html>
